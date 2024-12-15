@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="994f565283611210de51cad6feaad36b" label="TIG Catalog Item" max_length="40" name="x_1387810_tmp_tig_catalog_item" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Catalog Item Name" max_length="40" name="catalog_item_name" type="string"/>
+        <element label="Catalog Item Number" max_length="40" name="catalog_item_number" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

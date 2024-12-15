@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="box_location" table="x_1387810_tmp_boxes" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>box_location</element>
+            <name>x_1387810_tmp_boxes</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-14 23:56:53</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>box_location</sys_name>
+            <sys_package display_value="TMP" source="x_1387810_tmp">327ed69e83211210de51cad6feaad3d5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TMP">327ed69e83211210de51cad6feaad3d5</sys_scope>
+            <sys_update_name>sys_choice_x_1387810_tmp_boxes_box_location</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-14 23:56:53</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>box_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Shelf</label>
+            <language>en</language>
+            <name>x_1387810_tmp_boxes</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-14 23:58:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-14 23:58:40</sys_updated_on>
+            <value>u_shelf</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>box_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Floor</label>
+            <language>en</language>
+            <name>x_1387810_tmp_boxes</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-14 23:56:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-14 23:58:43</sys_updated_on>
+            <value>u_floor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>box_location</element>
+            <hint>Anything not on the floor or shelf</hint>
+            <inactive>false</inactive>
+            <label>Off Floor</label>
+            <language>en</language>
+            <name>x_1387810_tmp_boxes</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-14 23:57:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-14 23:58:46</sys_updated_on>
+            <value>u_off_floor</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

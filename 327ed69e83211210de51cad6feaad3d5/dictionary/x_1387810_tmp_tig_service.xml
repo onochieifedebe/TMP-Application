@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b51066d283611210de51cad6feaad388" label="TIG Service" max_length="40" name="x_1387810_tmp_tig_service" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Parent" max_length="32" name="parent" reference="x_1387810_tmp_tig_service" reference_qual="parentISEMPTY^EQ" reference_qual_condition="parentISEMPTY^EQ" type="reference"/>
+        <element attributes="encode_utf8=false" label="Service Catalog item" max_length="32" name="service_catalog_item" reference="x_1387810_tmp_tig_catalog_item" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Service Name" max_length="40" name="service_name" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="parent"/>
+        </index>
+        <index name="index2">
+            <element name="service_catalog_item"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

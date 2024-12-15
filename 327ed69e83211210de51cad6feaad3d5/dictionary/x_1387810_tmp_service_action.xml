@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7ce47650836a5210de51cad6feaad369" label="Service Action" max_length="40" name="x_1387810_tmp_service_action" type="collection">
+        <element attributes="long_label" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" dependent="order_table" dependent_on_field="order_table" display="true" label="Conditions" max_length="4000" name="conditions" type="conditions" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Order Table" max_length="80" name="order_table" type="table_name"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Service User Criteria" max_length="32" name="service_user_criteria" reference="user_criteria" type="reference"/>
+        <index name="index">
+            <element name="service_user_criteria"/>
+        </index>
+    </element>
+</database>

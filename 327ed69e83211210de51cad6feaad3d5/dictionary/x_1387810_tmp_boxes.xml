@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5a1f8cec83669210de51cad6feaad34e" label="Boxes" max_length="40" name="x_1387810_tmp_boxes" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="3" default="u_shelf" label="Box Location" max_length="40" name="box_location" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Shelf" sequence="100" value="u_shelf"/>
+                <element inactive_on_update="false" label="Floor" sequence="200" value="u_floor"/>
+                <element hint="Anything not on the floor or shelf" inactive_on_update="false" label="Off Floor" sequence="300" value="u_off_floor"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Aisle/Shelf Number" max_length="40" name="u_aisle_number" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Row" max_length="40" name="u_row" type="integer"/>
+    </element>
+</database>

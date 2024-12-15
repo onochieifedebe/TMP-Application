@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="13511ca083a69210de51cad6feaad3ff" extends="cmdb_ci" label="Item" max_length="40" name="x_1387810_tmp_item" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Storage Box" max_length="32" name="storage_box" reference="x_1387810_tmp_boxes" type="reference"/>
+    </element>
+</database>

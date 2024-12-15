@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3db06e1683611210de51cad6feaad3fd" label="TIG Contract" max_length="40" name="x_1387810_tmp_tig_contract" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Contract Name" max_length="40" name="contract_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Services" max_length="4000" name="services" reference="x_1387810_tmp_tig_service" type="glide_list"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

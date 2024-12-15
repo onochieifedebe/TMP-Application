@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c801aa5683611210de51cad6feaad353" label="TIG CLIN" max_length="40" name="x_1387810_tmp_tig_clin" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="CLIN Name" max_length="40" name="clin_name" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Contract Name" max_length="32" name="contract_name" reference="x_1387810_tmp_tig_contract" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Sub Services" max_length="4000" name="sub_services" reference="x_1387810_tmp_tig_service" reference_qual="javascript:new CLINServices().getServiceChildren(current.contract_name);" type="glide_list" use_reference_qualifier="advanced"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="contract_name"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

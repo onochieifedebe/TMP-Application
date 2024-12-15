@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_row</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-15 00:04:50</sys_created_on>
+        <sys_id>7770b46c83aa9210de51cad6feaad35b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_row</sys_name>
+        <sys_package display_value="TMP" source="x_1387810_tmp">327ed69e83211210de51cad6feaad3d5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TMP">327ed69e83211210de51cad6feaad3d5</sys_scope>
+        <sys_update_name>sys_ui_policy_action_7770b46c83aa9210de51cad6feaad35b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-15 00:04:50</sys_updated_on>
+        <table>x_1387810_tmp_boxes</table>
+        <ui_policy display_value="Show Aisle &amp;&amp; Row when Location == Shelf">5f20bc2c83aa9210de51cad6feaad346</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>
